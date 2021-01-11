@@ -9,7 +9,8 @@ for a simple display using Codeigniter and Arduino scan RFID
 3.
 
 Kamu bisa mengirimkan data dengan method POST maupun Url HTTP Request
-Dengan method POST:
+
+*Contoh dengan method POST:*
 1. Kamu bisa menggunakan postman untuk pengetesannya, maka download dulu software postman atau install extention dibrowser chrome.
 2. Kamu bisa isikan url dengan cara : 
    Buka postman -> Klik tanda "+" (Bila ingin membuat tab baru) -> Ubah method "GET" menjadi "POST" -> Masukan Url sebagai berikut: http://thirtyseven.000webhostapp.com/TS/apiRFID

@@ -10,10 +10,8 @@ for a simple display using Codeigniter and Arduino scan RFID
 
 
                          
-MFRC522    NodeMCU      
-Pin          Pin      
-
-SDA		-> D4 (GPIO2)		<br />       
+MFRC522    NodeMCU       
+SDA		-> D4 (GPIO2)		
 SCK		-> D5 (GPIO14)	<br />
 MOSI	-> D7 (GPIO13)	<br />
 MISO	-> D6 (GPIO12)	<br />

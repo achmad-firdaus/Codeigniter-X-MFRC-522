@@ -17,15 +17,11 @@ for a simple display using Codeigniter and Arduino scan RFID
     RST		-> D3 (GPIO0)		<br />
     3.3V	-> 3.3V					<br />
 
-
-              I2C          Node     
-              LCD          MCU      
-  Signal      Pin          Pin      
-
-  GND         GND          GND
-  3.3V        3.3V         3.3V
-  SPI SS      SDA(SS)      D2 (GPIO4)       
-  SPI SCL     SCL          D1 (GPIO5)
+    I2C LCD -> Node MCU   <br />
+    GND -> GND            <br />
+    3.3V -> 3.3V          <br />
+    SDA -> D2 (GPIO4)     <br />
+    SCL -> D1 (GPIO5)     <br />
  
  
 **How to testing website** <br />

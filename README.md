@@ -7,17 +7,15 @@ for a simple display using Codeigniter and Arduino scan RFID
 1. Kamu harus memiliki ESP8266, Module RFID, I2C LCD.
 2. Download code, dan upload pada ESP8266.
 3. Dengan wiring connection sebagai berikut:
-
-
-                         
-MFRC522    NodeMCU       
-SDA		-> D4 (GPIO2)		
-SCK		-> D5 (GPIO14)	<br />
-MOSI	-> D7 (GPIO13)	<br />
-MISO	-> D6 (GPIO12)	<br />
-GND		-> GND					<br />
-RST		-> D3 (GPIO0)		<br />
-3.3V	-> 3.3V					<br />
+               
+    MFRC522 -> NodeMCU       
+    SDA		-> D4 (GPIO2)		
+    SCK		-> D5 (GPIO14)	<br />
+    MOSI	-> D7 (GPIO13)	<br />
+    MISO	-> D6 (GPIO12)	<br />
+    GND		-> GND					<br />
+    RST		-> D3 (GPIO0)		<br />
+    3.3V	-> 3.3V					<br />
 
 
               I2C          Node     

@@ -23,7 +23,9 @@ for a simple display using Codeigniter and Arduino scan RFID
     SDA -> D2 (GPIO4)     <br />
     SCL -> D1 (GPIO5)     <br />
  
- 
+<br />
+# How to use
+**Starter**
 **How to testing website** <br />
 <br />
 Kamu bisa mengirimkan data dengan method POST maupun Url HTTP Request <br />

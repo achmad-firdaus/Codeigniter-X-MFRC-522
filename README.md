@@ -9,17 +9,17 @@ for a simple display using Codeigniter and Arduino scan RFID
 3. Dengan wiring connection sebagai berikut:
 
 
-              MFRC522      Node     
-              Reader/PCD   MCU      
-  Signal      Pin          Pin      
+                         
+MFRC522    NodeMCU      
+Pin          Pin      
 
-  SPI SS      SDA(SS)      D4 (GPIO2)       
-  SPI SCK     SCK          D5 (GPIO14)
-  SPI MOSI    MOSI         D7 (GPIO13)
-  SPI MISO    MISO         D6 (GPIO12)
-  GND         GND          GND
-  RST/Reset   RST          D3 (GPIO0)        
-  3.3V        3.3V         3.3V
+SDA		-> D4 (GPIO2)		<br />       
+SCK		-> D5 (GPIO14)	<br />
+MOSI	-> D7 (GPIO13)	<br />
+MISO	-> D6 (GPIO12)	<br />
+GND		-> GND					<br />
+RST		-> D3 (GPIO0)		<br />
+3.3V	-> 3.3V					<br />
 
 
               I2C          Node     
@@ -32,8 +32,9 @@ for a simple display using Codeigniter and Arduino scan RFID
   SPI SCL     SCL          D1 (GPIO5)
  
  
-**How to testing website**
-Kamu bisa mengirimkan data dengan method POST maupun Url HTTP Request
+**How to testing website** <br />
+<br />
+Kamu bisa mengirimkan data dengan method POST maupun Url HTTP Request <br />
 
 **Contoh dengan method POST:**
 1. Kamu bisa menggunakan postman untuk pengetesannya, download & install software postman atau install extention dibrowser chrome bila belum punya.

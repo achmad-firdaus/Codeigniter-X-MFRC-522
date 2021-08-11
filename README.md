@@ -1,5 +1,4 @@
-# RFID_Dashboard
-for a simple display using Codeigniter and MFRC-522
+# for a simple display using Codeigniter and MFRC-522
 
 # How to use
 **Memiliki 2 cara:**
